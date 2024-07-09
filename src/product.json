@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "image": "images/sneakers05.png",
+    "title": "Earthy Brown",
+    "price": "$40",
+    "description": "Stylish brown sneakers with a rustic feek for a sophisticated look"
+  },
+  {
+    "id": "2",
+    "image": "images/sneakers03.png",
+    "title": "White & beige",
+    "price": "$20",
+    "description": "Comfortable beige & white with a giving you an effortless style."
+  },
+  {
+    "id": "3",
+    "image": "images/sneakers07.png",
+    "title": "Classic Runners",
+    "price": "$30",
+    "description": "Timeless sneakers comfortable fit, ideal for everyday wear."
+  },
+  {
+    "id": "4",
+    "image": "images/sneakers08.png",
+    "title": "White sneakers",
+    "price": "$50",
+    "description": "Elegant white sneakers with minimalist aesthetic. Ideal for occation"
+  },
+  {
+    "id": "5",
+    "image": "images/sneakers01.png",
+    "title": "Black & Beige",
+    "price": "$25",
+    "description": "Urban sneakers, a bold urban look, ideal for streetwear enthusiasts"
+  },
+  {
+    "id": "6",
+    "image": "images/sneakers04.png",
+    "title": "Urban Kicks",
+    "price": "$20",
+    "description": "Comfortable beige & white with a giving you an effortless style."
+  },
+  {
+    "id": "7",
+    "image": "images/sneakers06.png",
+    "title": "Bold Red",
+    "price": "$60",
+    "description": "Vibrant red lines perfect for adding a pop of color to your outfit"
+  },
+  {
+    "id": "8",
+    "image": "images/sneakers02.png",
+    "title": "Classic Retro",
+    "price": "$40",
+    "description": "Retro sneakers, a mix of white, black, and red, with a vintage vibe"
+  },
+  {
+    "id": "9",
+    "image": "images/sneakers09.png",
+    "title": "Bold Urban",
+    "price": "$35",
+    "description": "Chunky, Stylish sneakers with a distinct urban look."
+  },
+  {
+    "id": "10",
+    "image": "images/sneakers10.png",
+    "title": "Olive Green",
+    "price": "$55",
+    "description": "Casual sneakers ideal for a laid-back yet stylish look"
+  },
+  {
+    "id": "11",
+    "image": "images/sneakers11.png",
+    "title": "Multi-Color",
+    "price": "$80",
+    "description": "Eye-catching bold multi-color sneakers, ideal to standout"
+  },
+  {
+    "id": "12",
+    "image": "images/sneakers12.png",
+    "title": "Sage Green",
+    "price": "$45",
+    "description": "Sleek green sneakers with brown soles, perfect for casual wear."
+  },
+  {
+    "id": "13",
+    "image": "images/sneakers13.png",
+    "title": "Vintage Red Denim",
+    "price": "$30",
+    "description": "Red lined sneakers with a vintage feel, perfect for everyday style."
+  },
+  {
+    "id": "14",
+    "image": "images/sneakers14.png",
+    "title": "Khaki Green",
+    "price": "$45",
+    "description": "khaki green sneakers with a relaxed design, perfect for everyday wear."
+  },
+  {
+    "id": "15",
+    "image": "images/sneakers15.png",
+    "title": "Sleek green",
+    "price": "$60",
+    "description": "Elegant suede sneakers, perfect for polished casual outfit"
+  },
+  {
+    "id": "16",
+    "image": "images/sneakers16.png",
+    "title": "Retro kicks",
+    "price": "$75",
+    "description": "Sporty sneakers with a retro vibe and eye catching red detailing"
+  }
+]

@@ -1,0 +1,219 @@
+/* Css component */
+:root {
+  --font: "Poppins", sans-serif;
+  --font-w-bold: 700;
+  --font-w-smBold: 600;
+  --font-w-md: 500;
+  --font-w-regular: 400;
+  --font-w-light: 300;
+  --pry-color: rgba(134, 9, 32, 1);
+  --sec-color: rgba(9, 134, 111, 1);
+  --text-colour: rgba(52, 58, 64, 1);
+  --sec-text-color: rgba(123, 125, 128, 1);
+  --text-sm: 14px;
+  --text-md: 16px;
+  --tet-color: rgba(224, 168, 167, 1);
+}
+
+img {
+  display: block;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.container {
+  margin: 2rem 0;
+  padding: 2px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem 0;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid var(--tet-color);
+  padding: 20px;
+  width: 300px;
+}
+
+.card-image {
+  position: relative;
+}
+
+.sneakers {
+  width: 255px;
+  height: 355px;
+}
+
+.love-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.title-price .title {
+  font-family: var(--font);
+  font-weight: var(--font-w-smBold);
+  font-size: var(--text-md);
+  color: rgba(23, 26, 29, 1);
+}
+
+.title-price .price {
+  font-family: var(--font);
+  font-weight: var(--font-w-smBold);
+  font-size: 18px;
+  color: rgba(23, 26, 29, 1);
+}
+
+.card .discrip {
+  width: 255px;
+  margin: 0;
+  font-family: var(--font);
+  font-weight: var(--font-w-regular);
+  font-size: var(--text-sm);
+  color: rgba(123, 125, 128, 1);
+}
+
+.card .button {
+  margin-top: 1.5rem;
+  padding: 10px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(250, 243, 243, 1);
+  border: 1px solid var(--tet-color);
+  text-decoration: none;
+}
+
+.card .button:hover {
+  cursor: pointer;
+}
+
+.button .cart-text {
+  color: var(--pry-color);
+  font-family: var(--font);
+  font-weight: var(--font-w-bold);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 1355px) {
+  footer .contact {
+    gap: 10px;
+    padding: 2rem 3.5rem;
+  }
+  .foot-continer {
+    padding: 2rem 3.5rem;
+  }
+  .foot-continer .timbu p {
+    font-family: var(--font);
+    font-size: var(--text-sm);
+    font-weight: var(--font-w-regular);
+    width: 300px;
+  }
+}
+
+@media (max-width: 853px) {
+  .container {
+    margin: 1rem 0;
+    padding: 2px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 15px;
+  }
+  .card {
+    padding: 10px;
+    width: 235px;
+  }
+  .sneakers {
+    width: 210px;
+    height: 250px;
+  }
+  .title-price .title {
+    font-weight: var(--font-w-md);
+    font-size: var(--text-sm);
+  }
+  .title-price .price {
+    font-weight: var(--font-w-md);
+    font-size: 14px;
+  }
+  .card .discrip {
+    width: 180px;
+    font-size: 12px;
+    font-weight: var(--font-w-light);
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin: 1rem 0;
+    padding: 2px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 15px;
+  }
+  .card {
+    padding: 10px;
+    width: 300px;
+  }
+  .sneakers {
+    width: 278px;
+    height: 350px;
+  }
+  .title-price .title {
+    font-weight: var(--font-w-smBold);
+    font-size: var(--text-md);
+  }
+  .title-price .price {
+    font-weight: var(--font-w-smBold);
+    font-size: 14px;
+  }
+  .card .discrip {
+    width: 280px;
+    font-size: 16px;
+    font-weight: var(--font-w-regular);
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    margin: 1rem 0;
+    padding: 2px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 5px;
+  }
+  .card {
+    padding: 10px;
+    width: 173px;
+  }
+  .sneakers {
+    width: 150px;
+    height: 180px;
+  }
+  .title-price .title {
+    font-weight: var(--font-w-md);
+    font-size: var(--text-sm);
+  }
+  .title-price .price {
+    font-weight: var(--font-w-md);
+    font-size: 14px;
+  }
+  .card .discrip {
+    width: 140px;
+    font-size: 12px;
+    font-weight: var(--font-w-light);
+  }
+}
