@@ -143,6 +143,10 @@ body {
     font-size: 12px;
     font-weight: var(--font-w-light);
   }
+  .love-icon {
+    top: 10px;
+    right: 10px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -176,5 +180,9 @@ body {
   .card .button {
     padding: 10px 10px;
     gap: 10px;
+  }
+  .love-icon {
+    top: 5px;
+    right: 5px;
   }
 }
