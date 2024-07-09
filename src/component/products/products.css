@@ -26,10 +26,10 @@ body {
 
 .container {
   margin: 2rem 0;
-  padding: 2px;
+  padding-left: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem 0;
+  grid-gap: 1rem 3rem;
   justify-content: center;
 }
 
@@ -37,7 +37,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   border: 1px solid var(--tet-color);
   padding: 20px;
   width: 300px;
@@ -90,12 +89,12 @@ body {
 
 .card .button {
   margin-top: 1.5rem;
-  padding: 10px 0;
+  padding: 10px 30px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   background-color: rgba(250, 243, 243, 1);
   border: 1px solid var(--tet-color);
   text-decoration: none;
@@ -110,6 +109,9 @@ body {
   font-family: var(--font);
   font-weight: var(--font-w-bold);
   font-size: var(--text-sm);
+}
+
+@media (max-width: 1628px) {
 }
 
 @media (max-width: 1355px) {
