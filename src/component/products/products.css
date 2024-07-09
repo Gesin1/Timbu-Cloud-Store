@@ -29,7 +29,7 @@ body {
   padding-left: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem 3rem;
+  grid-gap: 1rem 0rem;
   justify-content: center;
 }
 
