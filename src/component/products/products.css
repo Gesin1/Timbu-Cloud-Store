@@ -25,11 +25,15 @@ body {
 }
 
 .container {
-  margin: 2rem 0;
+  margin: 2rem auto;
   padding-left: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem 0rem;
+  justify-content: center;
+}
+
+.container {
   justify-content: center;
 }
 
