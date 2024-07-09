@@ -188,6 +188,36 @@ body {
   }
 }
 
+@media (max-width: 618px) {
+  .container {
+    margin: 1rem 0;
+    padding: 2px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 5px;
+  }
+  .card {
+    padding: 10px;
+    width: 173px;
+  }
+  .sneakers {
+    width: 140px;
+    height: 180px;
+  }
+  .title-price .title {
+    font-weight: var(--font-w-md);
+    font-size: var(--text-sm);
+  }
+  .title-price .price {
+    font-weight: var(--font-w-md);
+    font-size: 14px;
+  }
+  .card .discrip {
+    width: 140px;
+    font-size: 12px;
+    font-weight: var(--font-w-light);
+  }
+}
+
 @media (max-width: 450px) {
   .container {
     margin: 1rem 0;
