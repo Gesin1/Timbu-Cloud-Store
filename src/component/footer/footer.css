@@ -192,3 +192,8 @@ footer .copy {
     font-size: 12px;
   }
 }
+@media (max-width: 400px) {
+  .nav-container {
+    padding: 1rem;
+  }
+}
