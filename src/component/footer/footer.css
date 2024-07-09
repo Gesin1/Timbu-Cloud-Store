@@ -168,12 +168,12 @@ footer .copy {
   }
   footer .contact {
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 3rem 2rem;
     gap: 1em;
   }
   .foot-continer {
     flex-direction: column;
-    padding: 2rem 2rem;
+    padding: 0rem 2rem;
     gap: 1.5em;
   }
   .email {

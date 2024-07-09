@@ -135,9 +135,6 @@ body {
   margin-top: 1.5em;
   padding: 1.3rem 0;
   border: none;
-}
-
-.butt-ckeckout button {
   font-size: var(--text-sm);
   color: rgba(242, 243, 243, 1);
   font-weight: var(--font-w-light);
@@ -256,6 +253,9 @@ body {
   }
   .check2 {
     width: 450px;
+  }
+  .input-box {
+    width: calc(100% / 1);
   }
 }
 

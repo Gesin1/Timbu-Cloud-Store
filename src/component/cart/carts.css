@@ -239,7 +239,7 @@ header {
   text-decoration: none;
   color: rgba(242, 243, 243, 1);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 1em;
   cursor: pointer;
 }
@@ -304,16 +304,14 @@ header {
   .sec-col {
     display: none;
   }
-  .col .mobile-container {
-    display: flex;
-    width: 83%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .col-mobile {
+    margin: 1rem 2rem;
     border: 1px solid rgba(235, 202, 201, 1);
-    margin: 1em 2em;
-    padding: 0.5em 0;
-    gap: 5px;
+    max-width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
   }
   .mobile-sum {
     width: 95%;
@@ -428,14 +426,14 @@ header {
     background-color: rgba(134, 9, 32, 1);
     margin: 1em 0;
     text-align: center;
-    padding: 10px 0;
+    padding: 1rem 0;
   }
   .mb-checkout {
     text-align: center;
     text-decoration: none;
     color: rgba(242, 243, 243, 1);
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 1em;
     cursor: pointer;
     display: inline;

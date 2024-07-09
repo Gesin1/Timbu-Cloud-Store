@@ -46,7 +46,7 @@
     "image": "/assets/sneakers06.png",
     "title": "Bold Red",
     "price": "$60",
-    "description": "Vibrant red lines perfect for adding a pop of color to your outfit"
+    "description": "Vibrant red lines perfect for adding a pop of color to outfit"
   },
   {
     "id": "8",
@@ -81,7 +81,7 @@
     "image": "/assets/sneakers12.png",
     "title": "Sage Green",
     "price": "$45",
-    "description": "Sleek green sneakers with brown soles, perfect for casual wear."
+    "description": "Sleek green sneakers with brown soles, perfect for wear."
   },
   {
     "id": "13",

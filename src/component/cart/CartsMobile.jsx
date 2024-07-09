@@ -10,17 +10,17 @@ import { Link } from "react-router-dom";
 const CartsMobile = () => {
   return (
     <>
-      <div className="col col-mobile">
-        <div className="mobile-container">
-          <div className="mobile-sum">
-            <p>Cart summary </p>
-            <img src={arrow} alt="aroow-icon" />
-          </div>
-          <div className="mobile-total ">
-            <p>Total</p>
-            <p>$150</p>
-          </div>
+      <div className="col-mobile">
+        {/* <div className="mobile-container"> */}
+        <div className="mobile-sum">
+          <p>Cart summary </p>
+          <img src={arrow} alt="aroow-icon" />
         </div>
+        <div className="mobile-total ">
+          <p>Total</p>
+          <p>$150</p>
+        </div>
+        {/* </div> */}
       </div>
       <header>
         <div className="mb-container1">
