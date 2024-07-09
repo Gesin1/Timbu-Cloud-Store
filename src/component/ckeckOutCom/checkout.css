@@ -114,7 +114,7 @@ body {
 }
 
 #number {
-  background-image: url("/public/Images/flagDown.svg");
+  background-image: url("/public/assets/flagDown.svg");
   background-position: 10px center;
   padding-left: 60px;
   background-size: 50px;
