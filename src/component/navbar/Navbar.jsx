@@ -2,12 +2,16 @@ import "../navbar/nav.css";
 import logo from "../../img/logo.png";
 import searchIcon from "../../img/search-icon.svg";
 import profile from "../../img/profile-icon.svg";
-import carts from "../../img/cart-order.svg";
+import carts from "../../img/carts-icon.svg";
 import menu from "../../img/menu.svg";
 import serach from "../../img/search-normal.svg";
 import { Link } from "react-router-dom";
+import { useCart } from "../CartContext";
 
 const Navbar = () => {
+  const { cart } = useCart();
+  const itemCount = cart.reduce((count, item) => count + item.quantity, 0);
+
   return (
     <>
       <nav className="nav-container">
@@ -27,6 +31,9 @@ const Navbar = () => {
         <div className="menu-box">
           <img src={serach} alt="serack-icon" />
           <img src={carts} alt="carts" />
+          {itemCount > 0 && (
+            <span className="cart-item-count">{itemCount}</span>
+          )}
           <img src={menu} alt="menu-bar" />
         </div>
         <div className="details-box">
@@ -39,6 +46,9 @@ const Navbar = () => {
           </div>
           <div className="cart-box">
             <img src={carts} alt="cart-icon" className="cart-icon" />
+            {itemCount > 0 && (
+              <span className="cart-item-count">{itemCount}</span>
+            )}
             <p>cart</p>
           </div>
         </div>

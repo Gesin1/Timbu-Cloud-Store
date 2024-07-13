@@ -26,7 +26,6 @@ body {
 
 .container {
   margin: 2rem auto;
-  padding-left: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 1rem 1rem;
@@ -113,6 +112,21 @@ body {
   font-family: var(--font);
   font-weight: var(--font-w-bold);
   font-size: var(--text-sm);
+}
+
+.next-page-button {
+  display: flex;
+  justify-content: center;
+}
+
+.next-page-button button {
+  padding: 1rem 4rem;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--pry-color);
+  color: rgba(250, 243, 243, 1);
+  border: none;
+  margin: 1rem 0;
 }
 
 @media (max-width: 700px) {

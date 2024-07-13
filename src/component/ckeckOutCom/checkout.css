@@ -257,6 +257,15 @@ body {
   .input-box {
     width: calc(100% / 1);
   }
+  .checkout-container {
+    width: 100%;
+  }
+  .sum-line {
+    width: 100%;
+  }
+  .summary {
+    width: 100%;
+  }
 }
 
 @media (max-width: 492px) {
