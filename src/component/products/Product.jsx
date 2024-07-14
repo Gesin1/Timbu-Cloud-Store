@@ -15,7 +15,7 @@ const Product = () => {
   const orgId = process.env.REACT_APP_ORG_ID;
   const appId = process.env.REACT_APP_APP_ID;
 
-  const url_base = `/api/products?organization_id=${orgId}&Appid=${appId}&Apikey=${apikey}`;
+  const url_base = `https://timbu-get-all-products.reavdev.workers.dev/products?organization_id=${orgId}&Appid=${appId}&Apikey=${apikey}`;
 
   const fetchProducts = async () => {
     try {
