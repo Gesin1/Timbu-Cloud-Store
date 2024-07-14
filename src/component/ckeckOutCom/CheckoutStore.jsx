@@ -3,13 +3,13 @@ import "../ckeckOutCom/checkout.css";
 const CheckoutStore = () => {
   return (
     <>
-      <section>
+      <div className="main">
         <div className="check-cart-col1">
           <p>Cart &gt; </p>
           <p className="check-ship">Shipping details &gt; </p>
           <p>Payment &gt; </p>
         </div>
-      </section>
+      </div>
       <div className="check-container">
         <div className="customer-info-col">
           <p>customer Information</p>

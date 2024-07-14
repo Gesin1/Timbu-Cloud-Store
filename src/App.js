@@ -9,6 +9,7 @@ import HomePage from "./Page/HomePage";
 import Cart from "./Page/Cart";
 import CheckOut from "./Page/CheckOut";
 import MainLayout from "./Layout/MainLayout";
+import { CartProvider } from "./component/CartContext";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -22,9 +23,9 @@ const App = () => {
   );
 
   return (
-    <>
+    <CartProvider>
       <RouterProvider router={router} />
-    </>
+    </CartProvider>
   );
 };
 
