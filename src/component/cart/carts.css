@@ -35,7 +35,7 @@ body {
 
 .parent-div {
   max-width: 100%;
-  margin: 0 6.5rem;
+  margin: 0 6.5rem 2em 6.5rem;
   display: grid;
   grid-template-columns: 60% 40%;
   margin-bottom: 1em;
@@ -79,7 +79,9 @@ body {
 .mobile-display {
   display: none;
 }
-
+.mb-container {
+  display: none;
+}
 .sec-col .list-box p {
   font-size: 14px;
   font-weight: 600;
@@ -265,7 +267,7 @@ header {
 
 @media (max-width: 1355px) {
   .parent-div {
-    margin: 0 3.5rem;
+    margin: 0 3.5rem 2em 3.5rem;
   }
 }
 
